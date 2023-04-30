@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #d3f5cf, #A8D8FA, #635EE2);
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background-size: 100%;
+    background-repeat: repeat;
+
+}
+
+.codedby {
+    width: 40%;
+    background-color: white;
+    position: absolute;
+    border-radius: 6px;
+    font-family: 'Baloo Chettan 2', cursive; 
+    left: 30%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    top: 10%;
+    font-size: 1.2em;
+    box-shadow: 0 0 40px 6px #333;
+}
+
+
+/* --------------------------------------*/
+.container-do-container {
+   padding: 10px;
+    text-align: center;
+    width: 25%;
+    height: 30%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: white;
+    border: 5px dashed white;
+    border-radius: 20px;
+    box-shadow: 0 0 60px 6px #333;
+}
+/* --------------------------------------*/
+.container-do-container h1 {
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* --------------------------------------*/
+.botao-esquerda {
+    width: 45%;
+    height: 26%;
+    color: white;
+    background-color: red;
+    border: 1.9px solid black;
+    border-radius: 4px;
+    font-size: 32px;
+    margin: 0 2px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.botao-direita {
+    width: 45%;
+    height: 26%;
+    color: white;
+    background-color: #00f414;
+    border: 1.9px solid black;
+    border-radius: 4px;
+    font-size: 32px;
+    margin: 0 2px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.botao-direita:hover{
+    background-color: rgb(0, 184, 0);
+    color: white;
+    width: 46%;
+    height: 27%;
+}
+
+.botao-esquerda:hover{
+    background-color: rgb(184, 0, 0);
+    color: white;
+    width: 46%;
+    height: 27%;
+}
+
+@media only screen and (max-width: 750px) {
+    .container-do-container{
+        width: 50%;
+    }
+    .codedby{
+        width: 50%;
+        left: 25%;
+    }
+}
+  
+
+

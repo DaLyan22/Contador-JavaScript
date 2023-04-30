@@ -3,11 +3,13 @@ let valor = 0
 const h1_valor = document.querySelector("#valor")
 
 document.querySelector("#menos").addEventListener('click', () => {
+    if (valor === -99) return
     h1_valor.textContent = --valor
     cores()
 })
 
 document.querySelector("#mais").addEventListener('click', () => {
+    if (valor === 99) return
     h1_valor.textContent = ++valor
     cores()
 })
